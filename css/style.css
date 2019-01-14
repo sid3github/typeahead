@@ -5,3 +5,37 @@
 #the-basics input {
     margin-left: 50px;
 }
+
+.tt-menu {
+    margin-left: 50px;
+    border: 1px solid grey;
+    background-color: #fff;
+    color: #000;
+}
+
+.tt-dataset.tt-dataset-states {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    input.typeahead {
+        font-size: 1.5rem;
+    }
+
+    #the-basics {
+        font-size: 1.5rem;
+    }
+
+    .tt-menu {
+        margin-left: 50px;
+        border: 1px solid grey;
+        background-color: #fff;
+        color: #000;
+    }
+
+    .tt-dataset.tt-dataset-states {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
